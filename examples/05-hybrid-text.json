@@ -1,0 +1,15 @@
+{
+  "query": "Tôi cần làm gì để xin nghỉ vài ngày?",
+  "mode": "hybrid",
+  "k": 50,
+  "parameters": {
+    "top": 10,
+    "filter": "is_public eq true and domain eq 'hr'",
+    "select": [
+      "chunk_id",
+      "document_id",
+      "title",
+      "content"
+    ]
+  }
+}

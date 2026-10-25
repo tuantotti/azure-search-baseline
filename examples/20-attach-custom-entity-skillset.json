@@ -1,0 +1,19 @@
+{
+  "skillset_name": "uat-custom-entities-v1",
+  "fields": [
+    {
+      "name": "custom_entity_names",
+      "type": "Collection(Edm.String)",
+      "searchable": true,
+      "retrievable": true,
+      "filterable": true,
+      "facetable": true
+    }
+  ],
+  "output_field_mappings": [
+    {
+      "sourceFieldName": "/document/custom_entities/*/name",
+      "targetFieldName": "custom_entity_names"
+    }
+  ]
+}

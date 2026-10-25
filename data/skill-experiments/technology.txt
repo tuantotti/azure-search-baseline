@@ -1,0 +1,6 @@
+Technology platform review
+
+Maya Chen at Contoso Labs in Seattle evaluated Azure AI Search and Amazon Bedrock.
+The team was delighted by the fast retrieval and excellent documentation.
+Azure Search improved product discovery, and Bedrock helped summarize support cases.
+For the pilot, contact maya@example.com. This is a synthetic experiment document.

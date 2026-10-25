@@ -1,0 +1,23 @@
+{
+  "query": "Tôi cần làm gì để xin nghỉ vài ngày?",
+  "modes": [
+    "bm25",
+    "vector",
+    "hybrid",
+    "hybrid_semantic"
+  ],
+  "k": 50,
+  "repeats": 1,
+  "parameters": {
+    "top": 20,
+    "filter": "is_public eq true",
+    "select": [
+      "chunk_id",
+      "document_id",
+      "title"
+    ]
+  },
+  "qrels": {
+    "hr-leave": 3
+  }
+}

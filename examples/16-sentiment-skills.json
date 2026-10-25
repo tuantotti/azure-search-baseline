@@ -1,0 +1,9 @@
+{
+  "skillset_name": "uat-sentiment-v1",
+  "skills": [
+    {
+      "kind": "sentiment",
+      "language_code": "en"
+    }
+  ]
+}

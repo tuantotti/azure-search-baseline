@@ -1,0 +1,6 @@
+{
+  "knowledge_source_names": [
+    "readme-agentic-source"
+  ],
+  "description": "Context retrieval with Azure query planning"
+}

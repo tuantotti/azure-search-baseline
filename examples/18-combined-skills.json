@@ -1,0 +1,40 @@
+{
+  "skillset_name": "uat-combined-v1",
+  "skills": [
+    {
+      "kind": "classification",
+      "categories": [
+        "Finance",
+        "HR",
+        "Technology",
+        "Other"
+      ],
+      "instruction": "Use Other when none of the specific categories fits."
+    },
+    {
+      "kind": "entities",
+      "categories": [
+        "Person",
+        "Organization",
+        "Location",
+        "Email"
+      ],
+      "minimum_precision": 0.5,
+      "language_code": "en"
+    },
+    {
+      "kind": "key_phrases",
+      "language_code": "en"
+    },
+    {
+      "kind": "language_detection"
+    },
+    {
+      "kind": "sentiment",
+      "language_code": "en"
+    },
+    {
+      "kind": "summary"
+    }
+  ]
+}

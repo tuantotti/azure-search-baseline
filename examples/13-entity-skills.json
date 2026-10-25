@@ -1,0 +1,16 @@
+{
+  "skillset_name": "uat-entities-v1",
+  "skills": [
+    {
+      "kind": "entities",
+      "categories": [
+        "Person",
+        "Organization",
+        "Location",
+        "Email"
+      ],
+      "minimum_precision": 0.5,
+      "language_code": "en"
+    }
+  ]
+}

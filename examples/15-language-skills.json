@@ -1,0 +1,8 @@
+{
+  "skillset_name": "uat-language-v1",
+  "skills": [
+    {
+      "kind": "language_detection"
+    }
+  ]
+}

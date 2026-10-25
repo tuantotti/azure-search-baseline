@@ -1,0 +1,8 @@
+{
+  "skillset_name": "uat-summary-v1",
+  "skills": [
+    {
+      "kind": "summary"
+    }
+  ]
+}

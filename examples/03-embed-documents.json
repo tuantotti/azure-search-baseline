@@ -1,0 +1,122 @@
+{
+  "documents": [
+    {
+      "chunk_id": "chunk-1",
+      "document_id": "hr-leave",
+      "title": "Nghỉ phép HR-001",
+      "content": "Nhân viên có 12 ngày nghỉ phép năm. Đăng ký nghỉ phép trên cổng nhân sự và chờ quản lý phê duyệt.",
+      "domain": "hr",
+      "source": "synthetic",
+      "document_type": "policy",
+      "classification": "public",
+      "source_uri": "https://example.invalid/hr-leave",
+      "page_start": 1,
+      "is_public": true,
+      "allowed_group_ids": []
+    },
+    {
+      "chunk_id": "chunk-2",
+      "document_id": "hr-leave",
+      "title": "Quy trình đăng ký nghỉ phép",
+      "content": "Yêu cầu nghỉ phép cần ghi rõ ngày bắt đầu, ngày kết thúc và người bàn giao công việc.",
+      "domain": "hr",
+      "source": "synthetic",
+      "document_type": "policy",
+      "classification": "public",
+      "source_uri": "https://example.invalid/hr-leave",
+      "page_start": 2,
+      "is_public": true,
+      "allowed_group_ids": []
+    },
+    {
+      "chunk_id": "chunk-3",
+      "document_id": "hr-salary",
+      "title": "Bảng lương nội bộ",
+      "content": "Bảng lương chi tiết chỉ được truy cập bởi nhóm nhân sự HR. Nhân viên liên hệ HR để xử lý sai lệch lương.",
+      "domain": "hr",
+      "source": "synthetic",
+      "document_type": "policy",
+      "classification": "internal",
+      "source_uri": "https://example.invalid/hr-salary",
+      "page_start": 3,
+      "is_public": false,
+      "allowed_group_ids": [
+        "hr"
+      ]
+    },
+    {
+      "chunk_id": "chunk-4",
+      "document_id": "legal-kyc",
+      "title": "Quy trình KYC-2026",
+      "content": "Xác minh khách hàng yêu cầu kiểm tra giấy tờ định danh, xác thực thông tin và đánh giá rủi ro trước khi mở tài khoản.",
+      "domain": "legal",
+      "source": "synthetic",
+      "document_type": "policy",
+      "classification": "internal",
+      "source_uri": "https://example.invalid/legal-kyc",
+      "page_start": 4,
+      "is_public": false,
+      "allowed_group_ids": [
+        "compliance"
+      ]
+    },
+    {
+      "chunk_id": "chunk-5",
+      "document_id": "legal-aml",
+      "title": "Báo cáo giao dịch đáng ngờ",
+      "content": "Cán bộ tuân thủ đánh giá dấu hiệu rửa tiền và lập báo cáo giao dịch đáng ngờ theo quy trình nội bộ.",
+      "domain": "legal",
+      "source": "synthetic",
+      "document_type": "policy",
+      "classification": "internal",
+      "source_uri": "https://example.invalid/legal-aml",
+      "page_start": 5,
+      "is_public": false,
+      "allowed_group_ids": [
+        "compliance"
+      ]
+    },
+    {
+      "chunk_id": "chunk-6",
+      "document_id": "product-card",
+      "title": "Thẻ tín dụng Travel",
+      "content": "Sản phẩm thẻ Travel hoàn tiền cho chi tiêu du lịch. Điều kiện ưu đãi phụ thuộc hạng thẻ và thời gian áp dụng.",
+      "domain": "product",
+      "source": "synthetic",
+      "document_type": "policy",
+      "classification": "public",
+      "source_uri": "https://example.invalid/product-card",
+      "page_start": 6,
+      "is_public": true,
+      "allowed_group_ids": []
+    },
+    {
+      "chunk_id": "chunk-7",
+      "document_id": "it-password",
+      "title": "Password reset",
+      "content": "Employees can reset a forgotten password through the self-service portal after verifying their identity.",
+      "domain": "it",
+      "source": "synthetic",
+      "document_type": "policy",
+      "classification": "public",
+      "source_uri": "https://example.invalid/it-password",
+      "page_start": 7,
+      "is_public": true,
+      "allowed_group_ids": []
+    },
+    {
+      "chunk_id": "chunk-8",
+      "document_id": "restricted",
+      "title": "Hồ sơ điều tra hạn chế",
+      "content": "Hồ sơ điều tra nội bộ không được chia sẻ cho các nhóm người dùng trong thử nghiệm.",
+      "domain": "legal",
+      "source": "synthetic",
+      "document_type": "policy",
+      "classification": "internal",
+      "source_uri": "https://example.invalid/restricted",
+      "page_start": 8,
+      "is_public": false,
+      "allowed_group_ids": []
+    }
+  ]
+}

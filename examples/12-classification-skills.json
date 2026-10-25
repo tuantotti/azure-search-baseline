@@ -1,0 +1,15 @@
+{
+  "skillset_name": "uat-classification-v1",
+  "skills": [
+    {
+      "kind": "classification",
+      "categories": [
+        "Finance",
+        "HR",
+        "Technology",
+        "Other"
+      ],
+      "instruction": "Use Other when none of the specific categories fits."
+    }
+  ]
+}

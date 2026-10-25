@@ -1,0 +1,14 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "How do I request annual leave?"
+    }
+  ],
+  "knowledge_source_params": [
+    {
+      "knowledge_source_name": "readme-agentic-source",
+      "filter_add_on": "is_public eq true"
+    }
+  ]
+}

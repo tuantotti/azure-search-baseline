@@ -1,0 +1,12 @@
+{
+  "search": "*",
+  "select": "content,document_category,entities_persons,entities_organizations,entities_locations,entities_emails,key_phrases,detected_language,document_sentiment,summary",
+  "filter": "document_category eq 'Technology'",
+  "facets": [
+    "document_category",
+    "detected_language",
+    "document_sentiment"
+  ],
+  "count": true,
+  "top": 10
+}

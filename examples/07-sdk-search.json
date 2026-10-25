@@ -1,0 +1,12 @@
+{
+  "search_text": "nghỉ phép",
+  "top": 10,
+  "include_total_count": true,
+  "filter": "is_public eq true",
+  "select": [
+    "chunk_id",
+    "document_id",
+    "title",
+    "content"
+  ]
+}

@@ -1,0 +1,8 @@
+{"query_id": "q1", "text": "HR-001 nghỉ phép", "groups": [], "filters": {}, "qrels": {"hr-leave": 3}}
+{"query_id": "q2", "text": "Tôi cần làm gì để xin nghỉ vài ngày?", "groups": [], "filters": {"domain": "hr"}, "qrels": {"hr-leave": 3}}
+{"query_id": "q3", "text": "Xác minh danh tính khách hàng trước khi mở tài khoản", "groups": ["compliance"], "filters": {"domain": "legal"}, "qrels": {"legal-kyc": 3}}
+{"query_id": "q4", "text": "Bảng lương chi tiết", "groups": ["hr"], "filters": {}, "qrels": {"hr-salary": 3}}
+{"query_id": "q5", "text": "Bảng lương chi tiết", "groups": [], "filters": {}, "qrels": {}}
+{"query_id": "q6", "text": "I forgot my password", "groups": [], "filters": {}, "qrels": {"it-password": 3}}
+{"query_id": "q7", "text": "Làm thế nào để phát hiện và báo cáo rửa tiền?", "groups": ["compliance"], "filters": {}, "qrels": {"legal-aml": 3}}
+{"query_id": "q8", "text": "Chính sách trợ cấp sinh sống trên sao Hỏa", "groups": [], "filters": {}, "qrels": {}}

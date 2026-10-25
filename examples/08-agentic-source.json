@@ -1,0 +1,15 @@
+{
+  "index_name": "readme-baseline-20261019",
+  "semantic_configuration_name": "semantic-config",
+  "search_fields": [
+    "title",
+    "content"
+  ],
+  "source_data_fields": [
+    "chunk_id",
+    "document_id",
+    "title",
+    "content",
+    "source_uri"
+  ]
+}

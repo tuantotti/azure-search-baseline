@@ -1,0 +1,46 @@
+{
+  "description": "Find product names and aliases in document text.",
+  "skills": [
+    {
+      "@odata.type": "#Microsoft.Skills.Text.CustomEntityLookupSkill",
+      "name": "custom-products",
+      "context": "/document",
+      "defaultLanguageCode": "en",
+      "globalDefaultCaseSensitive": false,
+      "inlineEntitiesDefinition": [
+        {
+          "name": "Azure AI Search",
+          "id": "azure-search",
+          "type": "Product",
+          "aliases": [
+            {
+              "text": "Azure Search"
+            }
+          ]
+        },
+        {
+          "name": "Amazon Bedrock",
+          "id": "bedrock",
+          "type": "Product",
+          "aliases": [
+            {
+              "text": "Bedrock"
+            }
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "name": "text",
+          "source": "/document/content"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "entities",
+          "targetName": "custom_entities"
+        }
+      ]
+    }
+  ]
+}

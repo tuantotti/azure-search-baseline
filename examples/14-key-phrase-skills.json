@@ -1,0 +1,9 @@
+{
+  "skillset_name": "uat-key-phrases-v1",
+  "skills": [
+    {
+      "kind": "key_phrases",
+      "language_code": "en"
+    }
+  ]
+}
